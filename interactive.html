@@ -1,27 +1,18 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Dec 02 2020 18:45:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Jan 27 2022 22:24:53 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5fc71db18b6ac560c893c910" data-wf-site="5fa789db59a7f8306169fc16">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FYSM5L02RS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FYSM5L02RS');
-</script>
-<meta charset="utf-8">
-  <title>Etc.</title>
-  <meta content="Etc." property="og:title">
-  <meta content="Etc." property="twitter:title">
+  <meta charset="utf-8">
+  <title>Interactive</title>
+  <meta content="Interactive" property="og:title">
+  <meta content="Interactive" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/vivianngiam.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Oswald:200,300,400,500,600,700","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Oswald:200,300,400,500,600,700","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Varela:400","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Changa One:400,400italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -50,13 +41,15 @@ tap-highlight-color: transparent;
 </head>
 <body class="body-2">
   <div class="nav-wrapper">
-    <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
-      <a href="http://vivianngiam.com" class="brand w-nav-brand"><img src="images/vivianngiam_logo_red.png" width="188" sizes="(max-width: 479px) 25vw, 52.625px" srcset="images/vivianngiam_logo_red-p-500.png 500w, images/vivianngiam_logo_red.png 792w" alt="" class="image-25"></a>
+    <div data-collapse="none" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <a href="index.html" class="brand w-nav-brand"><img src="images/vivianngiam_logo_red.png" width="188" sizes="(max-width: 479px) 7vw, (max-width: 1279px) 52.625px, (max-width: 1439px) 4vw, 52.625px" srcset="images/vivianngiam_logo_red-p-500.png 500w, images/vivianngiam_logo_red.png 792w" alt="" class="image-25"></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="index.html" class="nav-link-etc w-nav-link">Home</a>
-        <a href="http://vivianngiam.com/#work" class="nav-link-etc w-nav-link">Work</a>
         <a href="about.html" class="nav-link-etc w-nav-link">Viv</a>
-        <a href="etc.html" aria-current="page" class="nav-link-etc w-nav-link w--current">Etc.</a>
+        <a href="ui-ux.html" class="nav-link-etc w-nav-link">UI/UX</a>
+        <a href="ar-vr.html" class="nav-link-etc w-nav-link">AR/VR</a>
+        <a href="interactive.html" aria-current="page" class="nav-link-etc w-nav-link w--current">Interactive</a>
+        <a href="motion.html" class="nav-link-etc w-nav-link">Motion</a>
+        <a href="illustration.html" class="nav-link-etc w-nav-link">Illustration</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -68,40 +61,42 @@ tap-highlight-color: transparent;
   </div>
   <div style="opacity:0" class="main-slider-container">
     <div class="first-slider-container">
-      <div data-animation="slide" data-disable-swipe="1" data-duration="0" data-infinite="1" class="etc-slider desktop w-slider">
+      <div data-delay="4000" data-animation="slide" class="etc-slider desktop w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="0" data-infinite="true">
         <div class="w-slider-mask">
-          <div data-w-id="21b0dc7c-1d1a-7acc-e61b-2908c4ea9944" class="main-slider-slide w-slide">
+          <div data-w-id="591c1dc1-a4b8-23a9-c30d-2cb21859f49f" class="main-slider-slide w-slide">
             <div class="main-slide-container">
-              <div style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="main-slide-wrapper">
+              <div class="main-slide-wrapper _6">
                 <div class="c-main-slide-content">
                   <div class="ci-main-slide-content">
                     <div class="c-main-slide-title">
-                      <h1 class="main-slide-title">Dolly</h1>
+                      <h1 class="main-slide-title">Guided breathing</h1>
                     </div>
                     <div class="c-main-slide-description">
-                      <p class="c-main-slide-description">The zipline trolley for tiger enrichment at the Singapore Zoo</p>
+                      <p class="c-main-slide-description">Guided breathing interface leveraging on vibration haptics and light. <br>
+                        <a href="https://vivianngiam.notion.site/Guided-Breathing-Interface-b737af4115454e9cacf2847433a78f43" target="_blank"><span class="text-span-16">View documentation</span></a><br>
+                      </p>
                     </div>
                   </div>
                   <div class="c-slide-btn">
                     <div class="_w-slide-btn">
-                      <a href="#" data-w-id="c6eb7c7a-f031-6bd4-da95-823d5c0828df" class="c-slide-btn-link w-inline-block w-lightbox">
-                        <div data-w-id="441d0882-bf26-465b-b60c-aef64d1534f3" class="c-slide-btn-block">
-                          <div style="opacity:1;-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="c-slide-btn-frame"></div>
-                          <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);opacity:0" class="c-slide-btn-loading"></div>
-                          <div data-w-id="3e0287af-2d51-d8f2-33ff-d7632e56866c" style="opacity:0.75;-webkit-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="c-play-btn"><img src="images/play-button.svg" loading="lazy" alt="" class="play-btn"></div>
+                      <a href="#" class="c-slide-btn-link w-inline-block w-lightbox">
+                        <div class="c-slide-btn-block">
+                          <div class="c-slide-btn-frame"></div>
+                          <div class="c-slide-btn-loading"></div>
+                          <div class="c-play-btn"><img src="images/play-button.svg" loading="lazy" alt="" class="play-btn"></div>
                         </div>
                         <script type="application/json" class="w-json">{
   "items": [
     {
-      "type": "video",
-      "originalUrl": "https://youtu.be/ZA7lgAwkVJk",
-      "url": "https://youtube.com/watch?v=ZA7lgAwkVJk",
-      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZA7lgAwkVJk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZA7lgAwkVJk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZA7lgAwkVJk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZA7lgAwkVJk/hqdefault.jpg",
+      "url": "https://youtube.com/watch?v=b9wCq6O519c",
+      "originalUrl": "https://youtube.com/watch?v=b9wCq6O519c",
       "width": 940,
-      "height": 528
+      "height": 528,
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fb9wCq6O519c%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Db9wCq6O519c&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
     }
-  ]
+  ],
+  "group": ""
 }</script>
                       </a>
                     </div>
@@ -133,15 +128,57 @@ tap-highlight-color: transparent;
                         <script type="application/json" class="w-json">{
   "items": [
     {
-      "type": "video",
-      "originalUrl": "https://www.youtube.com/watch?v=waXpBefptHk",
       "url": "https://www.youtube.com/watch?v=waXpBefptHk",
-      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FwaXpBefptHk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwaXpBefptHk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwaXpBefptHk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-      "thumbnailUrl": "https://i.ytimg.com/vi/waXpBefptHk/hqdefault.jpg",
+      "originalUrl": "https://www.youtube.com/watch?v=waXpBefptHk",
       "width": 940,
-      "height": 528
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/waXpBefptHk/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FwaXpBefptHk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwaXpBefptHk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwaXpBefptHk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
     }
-  ]
+  ],
+  "group": ""
+}</script>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="21b0dc7c-1d1a-7acc-e61b-2908c4ea9944" class="main-slider-slide w-slide">
+            <div class="main-slide-container">
+              <div style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="main-slide-wrapper">
+                <div class="c-main-slide-content">
+                  <div class="ci-main-slide-content">
+                    <div class="c-main-slide-title">
+                      <h1 class="main-slide-title">Dolly</h1>
+                    </div>
+                    <div class="c-main-slide-description">
+                      <p class="c-main-slide-description">The zipline trolley built for tiger enrichment at the Singapore Zoo.</p>
+                    </div>
+                  </div>
+                  <div class="c-slide-btn">
+                    <div class="_w-slide-btn">
+                      <a href="#" data-w-id="c6eb7c7a-f031-6bd4-da95-823d5c0828df" class="c-slide-btn-link w-inline-block w-lightbox">
+                        <div data-w-id="441d0882-bf26-465b-b60c-aef64d1534f3" class="c-slide-btn-block">
+                          <div style="opacity:1;-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="c-slide-btn-frame"></div>
+                          <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);opacity:0" class="c-slide-btn-loading"></div>
+                          <div data-w-id="3e0287af-2d51-d8f2-33ff-d7632e56866c" style="opacity:0.75;-webkit-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="c-play-btn"><img src="images/play-button.svg" loading="lazy" alt="" class="play-btn"></div>
+                        </div>
+                        <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "url": "https://youtube.com/watch?v=ZA7lgAwkVJk",
+      "originalUrl": "https://youtube.com/watch?v=ZA7lgAwkVJk",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZA7lgAwkVJk/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZA7lgAwkVJk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZA7lgAwkVJk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZA7lgAwkVJk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
+    }
+  ],
+  "group": ""
 }</script>
                       </a>
                     </div>
@@ -156,72 +193,22 @@ tap-highlight-color: transparent;
                 <div class="c-main-slide-content">
                   <div class="ci-main-slide-content">
                     <div class="c-main-slide-title">
-                      <h1 class="main-slide-title">AR &amp; empathy</h1>
+                      <h1 class="main-slide-title">When words fail you...</h1>
                     </div>
                     <div class="c-main-slide-description">
-                      <p class="c-main-slide-description">Honors Thesis: Designing and exploring the effects of an Augmented Reality (AR) experience in the context of Body Dysmorphic Disorder. Built using SparkAR. Participants used the demo on their phones and could see their own faces with the AR effects.</p>
+                      <p class="c-main-slide-description">Never know how to answer the question &quot;How are you?&quot; in words? Express yourself through music!<br>
+                        <a href="https://vivianngiam.notion.site/When-words-fail-you-a5f9608e0dd049b8902b41f8bd56926c" target="_blank"><span class="text-span-16">View documentation</span></a>
+                      </p>
                     </div>
                   </div>
                   <div class="c-slide-btn">
                     <div class="_w-slide-btn">
-                      <a href="#" class="c-slide-btn-link w-inline-block w-lightbox">
+                      <a href="https://editor.p5js.org/Vivianngiam/full/JP67WtNDG" target="_blank" class="c-slide-btn-block w-inline-block">
                         <div class="c-slide-btn-block">
                           <div class="c-slide-btn-frame"></div>
                           <div class="c-slide-btn-loading"></div>
                           <div class="c-play-btn"><img src="images/play-button.svg" loading="lazy" alt="" class="play-btn"></div>
                         </div>
-                        <script type="application/json" class="w-json">{
-  "items": [
-    {
-      "type": "video",
-      "originalUrl": "https://youtu.be/2ixcVFRKTJE",
-      "url": "https://youtube.com/watch?v=2ixcVFRKTJE",
-      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F2ixcVFRKTJE%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2ixcVFRKTJE&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-      "width": 940,
-      "height": 528
-    }
-  ]
-}</script>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-w-id="92794e56-68e9-87ec-bfcc-04c53d46e141" class="main-slider-slide w-slide">
-            <div class="main-slide-container">
-              <div class="main-slide-wrapper _4">
-                <div class="c-main-slide-content">
-                  <div class="ci-main-slide-content">
-                    <div class="c-main-slide-title">
-                      <h1 class="main-slide-title">Starstream</h1>
-                    </div>
-                    <div class="c-main-slide-description">
-                      <p class="c-main-slide-description">A very &#x27;Star Trek&#x27; computer game. Press &lt;space&gt; to survive.</p>
-                    </div>
-                  </div>
-                  <div class="c-slide-btn">
-                    <div class="_w-slide-btn">
-                      <a href="#" class="c-slide-btn-link w-inline-block w-lightbox">
-                        <div class="c-slide-btn-block">
-                          <div class="c-slide-btn-frame"></div>
-                          <div class="c-slide-btn-loading"></div>
-                          <div class="c-play-btn"><img src="images/play-button.svg" loading="lazy" alt="" class="play-btn"></div>
-                        </div>
-                        <script type="application/json" class="w-json">{
-  "items": [
-    {
-      "type": "video",
-      "originalUrl": "https://youtu.be/NbnmfCJmEEA",
-      "url": "https://youtube.com/watch?v=NbnmfCJmEEA",
-      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNbnmfCJmEEA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNbnmfCJmEEA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNbnmfCJmEEA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NbnmfCJmEEA/hqdefault.jpg",
-      "width": 940,
-      "height": 528
-    }
-  ]
-}</script>
                       </a>
                     </div>
                   </div>
@@ -256,16 +243,16 @@ tap-highlight-color: transparent;
               </div>
             </div>
           </div>
-          <div data-w-id="591c1dc1-a4b8-23a9-c30d-2cb21859f49f" class="main-slider-slide w-slide">
+          <div data-w-id="92794e56-68e9-87ec-bfcc-04c53d46e141" class="main-slider-slide w-slide">
             <div class="main-slide-container">
-              <div class="main-slide-wrapper _6">
+              <div class="main-slide-wrapper _4">
                 <div class="c-main-slide-content">
                   <div class="ci-main-slide-content">
                     <div class="c-main-slide-title">
-                      <h1 class="main-slide-title">Ventit</h1>
+                      <h1 class="main-slide-title">Starstream</h1>
                     </div>
                     <div class="c-main-slide-description">
-                      <p class="c-main-slide-description">A fun little app to scream your frustrations away.<br></p>
+                      <p class="c-main-slide-description">A very &#x27;Star Trek&#x27; computer game. Press &lt;space&gt; to survive.</p>
                     </div>
                   </div>
                   <div class="c-slide-btn">
@@ -279,17 +266,16 @@ tap-highlight-color: transparent;
                         <script type="application/json" class="w-json">{
   "items": [
     {
-      "width": 1429,
-      "caption": "Illustrations and design done by Vivian Ngiam. Don't you just love the sassy ball of red following you around the app?",
-      "height": 589,
-      "fileName": "Ventit.png",
-      "origFileName": "Ventit.png",
-      "url": "images/Ventit.png",
-      "_id": "5fc7a9b4d30eb917b0dbf67c",
-      "type": "image",
-      "fileSize": 211131
+      "url": "https://youtube.com/watch?v=NbnmfCJmEEA",
+      "originalUrl": "https://youtube.com/watch?v=NbnmfCJmEEA",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/NbnmfCJmEEA/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNbnmfCJmEEA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNbnmfCJmEEA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNbnmfCJmEEA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
     }
-  ]
+  ],
+  "group": ""
 }</script>
                       </a>
                     </div>
@@ -307,7 +293,7 @@ tap-highlight-color: transparent;
         </div>
         <div class="main-slider-nav-dots w-slider-nav w-round"></div>
       </div>
-      <div data-animation="over" data-duration="500" data-infinite="1" class="etc-slider mobile w-slider">
+      <div data-delay="4000" data-animation="over" class="etc-slider mobile w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
         <div class="w-slider-mask">
           <div class="w-slide"></div>
           <div class="w-slide"></div>
@@ -356,7 +342,7 @@ tap-highlight-color: transparent;
         </div>
       </div>
       <div class="sub-slider-container">
-        <div data-animation="slide" data-disable-swipe="1" data-duration="500" data-infinite="1" class="sub-slider w-slider">
+        <div data-delay="4000" data-animation="slide" class="sub-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
           <div class="sub-slider-mask w-slider-mask">
             <div data-w-id="722a9bec-4fc0-265a-f7a6-86ae68c95258" class="sub-slider-slide w-slide">
               <div class="sub-slide-container">
@@ -369,23 +355,23 @@ tap-highlight-color: transparent;
                 </div>
               </div>
             </div>
-            <div data-w-id="f6270566-8b28-0690-cebd-b8f49b29ae27" class="sub-slider-slide w-slide">
+            <div data-w-id="d8c9ce5e-3c7b-39e0-70cb-190a2a108e79" class="sub-slider-slide w-slide">
               <div class="sub-slide-container">
-                <div class="sub-slide-wrapper _3">
+                <div class="sub-slide-wrapper _1">
                   <div class="c-sub-slide-content">
                     <div class="c-sub-slide-title">
-                      <div class="sub-slide-title">AR &amp; Empathy</div>
+                      <div class="sub-slide-title">Dolly</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-w-id="fc39a131-3fe4-64aa-30c5-45778bd20202" class="sub-slider-slide w-slide">
+            <div data-w-id="52f2e977-ade2-1ec4-7d1f-5c6b97f22b8a" class="sub-slider-slide w-slide">
               <div class="sub-slide-container">
-                <div class="sub-slide-wrapper _4">
+                <div class="sub-slide-wrapper _6">
                   <div class="c-sub-slide-content">
                     <div class="c-sub-slide-title">
-                      <div class="sub-slide-title">Starstream</div>
+                      <div class="sub-slide-title">When words fail you...</div>
                     </div>
                   </div>
                 </div>
@@ -402,23 +388,23 @@ tap-highlight-color: transparent;
                 </div>
               </div>
             </div>
-            <div data-w-id="52f2e977-ade2-1ec4-7d1f-5c6b97f22b8a" class="sub-slider-slide w-slide">
+            <div data-w-id="fc39a131-3fe4-64aa-30c5-45778bd20202" class="sub-slider-slide w-slide">
               <div class="sub-slide-container">
-                <div class="sub-slide-wrapper _6">
+                <div class="sub-slide-wrapper _4">
                   <div class="c-sub-slide-content">
                     <div class="c-sub-slide-title">
-                      <div class="sub-slide-title">Ventit</div>
+                      <div class="sub-slide-title">Starstream</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-w-id="d8c9ce5e-3c7b-39e0-70cb-190a2a108e79" class="sub-slider-slide w-slide">
+            <div data-w-id="f6270566-8b28-0690-cebd-b8f49b29ae27" class="sub-slider-slide w-slide">
               <div class="sub-slide-container">
-                <div class="sub-slide-wrapper _1">
+                <div class="sub-slide-wrapper _3">
                   <div class="c-sub-slide-content">
                     <div class="c-sub-slide-title">
-                      <div class="sub-slide-title">Dolly</div>
+                      <div class="sub-slide-title">Guided Breathing</div>
                     </div>
                   </div>
                 </div>
@@ -436,18 +422,28 @@ tap-highlight-color: transparent;
       </div>
     </div>
   </div>
-  <div class="section footer">
-    <div class="columns w-row">
-      <div class="column-3 w-col w-col-9"><img src="images/vivianngiam_logo_red.png" loading="lazy" sizes="(max-width: 767px) 4vw, 7vw" srcset="images/vivianngiam_logo_red-p-500.png 500w, images/vivianngiam_logo_red.png 792w" alt="" class="image-12"></div>
-      <div class="social-footer-wrap w-col w-col-3">
-        <div>
-          <div class="footer-logo">Slide into any of my socials!</div>
-          <a href="mailto:vivian.ngiam@gmail.com" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5faa5073237b8910b5fc0256/5faa5073ee14b74684365419_email-icon-black.svg" alt="" class="footer-icon"></a>
-          <a href="http://linkedin.com/in/vivian-ngiam/" target="_blank" class="footer-social-link w-inline-block"><img src="images/linkedin-icon-1-logo-png-transparent.png" sizes="(max-width: 767px) 17.5px, (max-width: 991px) 2vw, 17.5px" srcset="images/linkedin-icon-1-logo-png-transparent-p-500.png 500w, images/linkedin-icon-1-logo-png-transparent-p-800.png 800w, images/linkedin-icon-1-logo-png-transparent-p-1080.png 1080w, images/linkedin-icon-1-logo-png-transparent-p-1600.png 1600w, images/linkedin-icon-1-logo-png-transparent.png 2400w" alt="" class="linkedin"></a>
-          <a href="https://www.instagram.com/vivianngiam/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5faa5073237b8910b5fc0256/5faa5073ee14b75e25365423_instagram-icon-black.svg" alt="" class="footer-icon"></a>
-          <a href="documents/Resume_general_VivianNgiam.pdf" class="footer-social-link w-inline-block">
-            <div class="resume-link">Resume</div>
-          </a>
+  <div id="Footer" class="section footer wf-section">
+    <div class="div-block-70">
+      <div class="copyright">©2022 BY VIVIAN NGIAM<br>(currently working on mobile responsiveness)</div>
+      <div class="div-block-71">
+        <a href="documents/Vivian-Ngiam_Resume_Jan2022.pdf" target="_blank" class="footer-social-link w-inline-block">
+          <div class="resume-link">Resume</div>
+        </a>
+        <a href="http://linkedin.com/in/vivian-ngiam/" target="_blank" class="footer-social-link w-inline-block"><img src="images/linkedin-icon-1-logo-png-transparent.png" sizes="(max-width: 767px) 17.5px, (max-width: 991px) 2vw, (max-width: 1279px) 17.5px, 1vw" srcset="images/linkedin-icon-1-logo-png-transparent-p-500.png 500w, images/linkedin-icon-1-logo-png-transparent-p-800.png 800w, images/linkedin-icon-1-logo-png-transparent-p-1080.png 1080w, images/linkedin-icon-1-logo-png-transparent-p-1600.png 1600w, images/linkedin-icon-1-logo-png-transparent.png 2400w" alt="" class="linkedin"></a>
+        <a href="https://www.instagram.com/vivs.playground/" target="_blank" class="footer-social-link w-inline-block"><img src="images/instagram-icon-black.svg" alt="" class="footer-icon"></a>
+        <link rel="prefetch" href="https://www.instagram.com/vivs.playground/">
+        <a href="mailto:vivian.ngiam@gmail.com" class="footer-social-link w-inline-block"><img src="images/email-icon-black.svg" alt="" class="footer-icon"></a>
+        <a href="https://vivianngiam.notion.site/Vivian-Ngiam-ITP-Blog-c280e3c1d39c43009ec83c23c6b10936" target="_blank" class="footer-social-link w-inline-block">
+          <div class="resume-link">Blog</div>
+        </a>
+      </div>
+      <div class="div-block-72">
+        <div class="html-embed w-embed w-script">
+          <!--  Calendly link widget begin  -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vivianngiam/15min?primary_color=ff1654'});return false;">Schedule a 15min chat with Viv!</a>
+          <!--  Calendly link widget end  -->
         </div>
       </div>
     </div>
@@ -495,7 +491,7 @@ function animateValue(id, start, end, duration) {
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   <script>
         var typed2 = new Typed('.typed-text-2', {
-        strings: ['Creating experiences that Empower Women', 'Creating experiences that Empower Minorities', 'Creating experiences that Empower the e-commerce realm'],
+        strings: ['I’m an interactive storyteller', 'I’m a product designer', 'I’m a creative technologist', 'I’m an artist', 'I’m a musician'],
         typeSpeed: 75,
         backSpeed: 50,
         loop: true,
@@ -503,7 +499,7 @@ function animateValue(id, start, end, duration) {
         startDelay: 500
       });
       var typed3 = new Typed('.typed-text-3', {
-        strings: ['Through Empathetic Design', 'Through Data-driven Design', 'Through Pixel Perfect Design'],
+        strings: ['I create experiences that empower women', 'I create experiences that empower minorities', 'I create experiences that evoke empathy'],
         typeSpeed: 75,
         backSpeed: 50,
         loop: true,
