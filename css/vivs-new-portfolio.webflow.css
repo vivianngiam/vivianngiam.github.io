@@ -2,7 +2,6 @@
   --bg-dark: #151722;
   --white-100: #fcfcfc;
   --white-smoke: #ebebeb;
-  --lime\<deleted\|variable-15c100c8\>: #daec31;
   --pink: #ff1654;
 }
 
@@ -295,10 +294,6 @@
   color: var(--bg-dark);
   font-size: 20px;
   line-height: 22px;
-}
-
-.type-body-large.no-spacing.lh:hover {
-  color: var(--white-100);
 }
 
 .type-body-large.border-top {
@@ -688,13 +683,13 @@
 }
 
 .button:hover {
-  background-color: var(--lime\<deleted\|variable-15c100c8\>);
-  border: 3px #66d108;
+  border: 3px none var(--pink);
+  background-color: var(--pink);
+  color: var(--white-100);
 }
 
 .button.w--current:hover {
-  background-color: var(--pink);
-  border-color: #f8f8f8;
+  color: var(--bg-dark);
 }
 
 .icon-arrow-left {
@@ -755,6 +750,10 @@
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.type-caption.left {
+  text-align: left;
 }
 
 .section-image-caption-shadow {
